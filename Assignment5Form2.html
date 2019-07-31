@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--Assignment2Form2.html
+	Assigment 2, Form 2
+	-->
+<html lang = "en" xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title> Daniel Sepe </title>
+		<!-- <meta charset = "utf-8" /> -->
+		<script type="text/javascript"	src="Assignment5Form2.js"></script>
+	</head>
+	<body>
+		
+		<h1> Assignment 5 Form 2 </h1>
+		<form name="Form2" action="http://grid.cs.gsu.edu/~cfrederick/csc4370/submit2.php" method="get" onsubmit="return checkBoxes()">
+			<p>
+				<table>
+				
+				<th> Days 
+					<td> <label> <input type="checkbox" name="check1" id="check1"> 
+					Monday </label>
+					</td>
+					<td> <label> <input type="checkbox" name="check1" id="check2">
+					Wednesday </label>
+					</td>
+					<td>
+						 <label> <input type="checkbox" name="check1" id="check3"> Friday </label>
+					</td>
+				</th>
+				<tr>
+					<th> Available Times
+					<td> <label> <input type="radio" name="radio1" id="radio1">
+						10 AM </label>
+					</td>
+					<td>
+						<label> <input type="radio" name="radio1" id="radio2">
+						3 PM </label>
+					</td>
+					<td>
+						<label> <input type="radio" name="radio1" id="radio3">
+						5:30 PM </label>
+					</td>
+					</th>
+				</tr>
+				<tr>
+					<th> Classes
+					<td>
+						<select name = "select1" required="required">
+							<option disabled selected> Please Select </option>
+							<option id="select1"> Computer Science </option>
+							<option id="select2"> Math </option>
+							<option id="select3"> Physics </option>
+						</select>
+					</td>
+					</th>
+				</tr>
+
+				<tr>
+					<th> </th>
+					<th>
+						<input type="submit" name="Submit Form">
+						<input type="reset" name="Reset Form">
+					</th>
+				</tr>
+				</table>
+			</p>
+		</form>
+		</table>
+	</body>
+	<br>
+	<a href="http://validator.w3.org/file-upload.html">
+		Click here for validation
+	</a>
+</html>

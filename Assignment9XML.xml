@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Assignment9CSS.css"?>
+
+<Battlefield>
+	<caption>Battlefield 1 Revolution Stats 10-27-17</caption>
+
+	<weaponsGroup>
+
+		<weaponStats>
+			<gunNameColumn> Gun Name </gunNameColumn>
+			<killsColumn> Kills </killsColumn>
+			<kpmColumn> Kills Per Minute </kpmColumn>
+			<rateOfFireColumn> Rate of Fire </rateOfFireColumn>
+			<weaponTimeColumn> Weapon Time </weaponTimeColumn>
+		</weaponStats>
+
+		<weaponStats>
+			<gunName>Lewis Gun Low Weight</gunName>
+			<kills>350</kills>
+			<kpm>1.5</kpm>
+			<rateOfFire>480 RPM</rateOfFire>
+			<weaponTime>3h 57m</weaponTime>
+		</weaponStats>
+
+		<weaponStats>
+			<gunName>MP 18 Optical</gunName>
+			<kills>155</kills>
+			<kpm>2</kpm>
+			<rateOfFire>550 RPM</rateOfFire>
+			<weaponTime>1h 16m</weaponTime>
+		</weaponStats>
+
+		<weaponStats>
+			<gunName>SMLE MKIII Marksman</gunName>
+			<kills>148</kills>
+			<kpm>1</kpm>
+			<rateOfFire>53 RPM</rateOfFire>
+			<weaponTime>2h 21m</weaponTime>
+		</weaponStats>
+
+		<weaponStats>
+			<gunName>BAR M1918 Trench</gunName>
+			<kills>144</kills>
+			<kpm>1.5</kpm>
+			<rateOfFire>600 RPM</rateOfFire>
+			<weaponTime>1h 38m</weaponTime>
+		</weaponStats>
+
+		<weaponStats>
+			<gunName>BAR M1918 Storm</gunName>
+			<kills>143</kills>
+			<kpm>1.7</kpm>
+			<rateOfFire>600 RPM</rateOfFire>
+			<weaponTime>1h 25m</weaponTime>
+		</weaponStats>
+
+	</weaponsGroup>
+
+	<homepages xmlns:xlink="http://www.w3.org/1999/xlink">
+  		<homepage xlink:type="simple" xlink:href="http://codd.cs.gsu.edu/~dsepe1/">Click here to return to dsepe1's homepage.
+  		</homepage>
+	</homepages>
+
+</Battlefield>

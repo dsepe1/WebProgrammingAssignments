@@ -1,0 +1,26 @@
+caption {
+    font: bold 2em 'Courier New';
+}
+
+weaponsGroup {
+    display: table-cell;
+    border: 1px solid black;
+}
+
+gunNameColumn, killsColumn, kpmColumn, rateOfFireColumn, weaponTimeColumn {
+    display: table-cell;
+    border: 1px solid black;
+    font: italic bold 1.5em "Courier";
+    padding: 12px;
+}
+
+weaponStats {
+    display: table-row;
+}
+
+gunName, kills, kpm, rateOfFire, weaponTime {
+    display: table-cell;
+    padding: 12px;
+    border: 1px solid black;
+    text-align: center;
+}
